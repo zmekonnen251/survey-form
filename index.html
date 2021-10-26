@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survey Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -21,8 +24,169 @@
     - The freeCodeCamp Team
 
     -->
-    <h1>Hello World!,We are software developers </h1>
+    <div class="container">
+      <h1>freeCodeCamp Survey Form</h1>
+      <h2>Thank you for taking the time to help us improve the platform</h2>
+      <form>
+        <div class="form-group">
+          <div class = "form-group">
+            <label for="name" class="form-control">Name</label>
+            <input type="text" id="name" class="form-control" class="col-sm-2" size="50">
+          </div>
+          <div class="form-group">
+            <label for="email" >Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter email>   
+          </div>
+    
+          <div class="form-group row">
+            <label for="age">Age(optional)</label>
+            <input type="number" id="age" class="form-control">
+          </div>
+    
+          <div class="form-group">
+            <label for="current_role">Which option best describes your current role?</label>
+        
+        <select name="Select current role" id="current_role" class="form-control">
+            <option value="Student">Student</option>
+            <option value="Full time Job">Full time Job</option>
+            <option value="Full time learner">Full time learner</option>
+            <option value="Prefer not say">Prefer not say</option>
+            <option value="Others">Others</option>
+    
+        </select>
+          </div>
+   
+     
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+    
+        <div class="form-check">
+          <label for="definitely" class="form-check-label">Definitely</label>
+          <input type="radio" name="recomendation" class="form-control" class="form-check-input" value="definitely" id="definitely">
+        </div>
+    
+        <div class="form-check">
+          <label for="maybe" class="form-check-label">Maybe</label>
+          <input type="radio" name="recomendation" class="form-control" value="maybe" id="maybe" class="form-check-input">
+        </div>
+    
+        <div class="form-check"> 
+          
+          <label for="not sure" class="form-check-label">Not sure</label>
+          <input type="radio" name="recomendation" class="form-control" value="not sure" id="not sure" class="form-check-input">
+          
+        </div>
+  
+        <div>
+          <label for="favourite_feature">What is your favorite feature of freeCodeCamp?</label>
+          <select name="Select an option" id="favourite_feature" class="form-control">
+            <option value="Student">Challenges</option>
+            <option value="Full time Job">Projects</option>
+            <option value="Full time learner">Community</option>
+            <option value="Prefer not say">Open source</option>
+    
+        </select>
+   <div>
+    <br>
+     <p>What would you like to see improved? (Check all that apply)</p>
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Front-end Project</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Back-end Project</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Data Visualization</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Challenges</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Open Source Community</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Gitter help rooms</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Videos</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">City Meetups</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Wiki</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Forum</label>
+    </div>
+  
+    <div class="form-check">
+      <input type="checkbox" value="" class = "form-check-input" id="">
+      <label for="">Addistional Course </label>
+    </div>
+  
+   </div>
+  
+   <div class="form-floating">
+    <label for="floatingTextarea">Any comments or suggestions?</label>
+  </div>
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="4" cols="50"
+    >
+  
+    </textarea>
+  
+    <div>
+      <input type="submit" value="Submit"  class="btn btn-primary">
+    </div>
+    
+        
+  
+  
+        </div>
+        
+    
+       
+        
+        
+        
+      </div>
+        </div>
+        
 
+   
+       
+  </form>
+  
+      
+  
+      
+  
+     
+  
+      
+  
+  
+  
+    </div>
+    
     <script  src="js/index.js"></script>
   </body>
 </html>
