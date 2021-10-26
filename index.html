@@ -25,28 +25,28 @@
 
     -->
     <div class="container">
-      <h1>freeCodeCamp Survey Form</h1>
+      <h1>FreeCodeCamp Survey Form</h1>
       <h2>Thank you for taking the time to help us improve the platform</h2>
       <form>
         <div class="form-group">
-          <div class = "form-group">
-            <label for="name" class="form-control">Name</label>
-            <input type="text" id="name" class="form-control" class="col-sm-2" size="50">
+          <div class = "form-group row">
+            <label for="name" class="col-sm-1 col-form-label">Name</label>
+            <input type="text" id="name" class="form-control col-sm-4">
           </div>
-          <div class="form-group">
-            <label for="email" >Email</label>
-            <input type="email" id="email" class="form-control" placeholder="Enter email>   
+          <div class="form-group row">
+            <label for="email" class="col-sm-1 col-form-label" >Email</label>
+            <input type="email" id="email" placeholder="Enter email" class="form-control col-sm-4">   
           </div>
     
           <div class="form-group row">
-            <label for="age">Age(optional)</label>
-            <input type="number" id="age" class="form-control">
+            <label for="age" class="col-sm-2 col-form-label">Age(optional)</label>
+            <input type="number" id="age" class="form-control col-sm-2">
           </div>
     
-          <div class="form-group">
-            <label for="current_role">Which option best describes your current role?</label>
+          <div class="form-group row">
+            <label for="current_role" class="col-sm-4 col-form-label">Which option best describes your current role?</label>
         
-        <select name="Select current role" id="current_role" class="form-control">
+        <select name="Select current role" id="current_role" class="form-control col-sm-2">
             <option value="Student">Student</option>
             <option value="Full time Job">Full time Job</option>
             <option value="Full time learner">Full time learner</option>
@@ -65,14 +65,14 @@
         </div>
     
         <div class="form-check">
-          <label for="maybe" class="form-check-label">Maybe</label>
+          <label for="maybe" class="form-check-label" class="col-sm-2 col-form-label" >Maybe</label>
           <input type="radio" name="recomendation" class="form-control" value="maybe" id="maybe" class="form-check-input">
         </div>
     
         <div class="form-check"> 
           
           <label for="not sure" class="form-check-label">Not sure</label>
-          <input type="radio" name="recomendation" class="form-control" value="not sure" id="not sure" class="form-check-input">
+          <input type="radio" name="recomendation" class="form-control" value="not sure" id="not sure" class="form-check-input" >
           
         </div>
   

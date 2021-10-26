@@ -3,7 +3,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
-  color: var(--color-black);
+  color: white;
   margin: 0;
   display: block;
+  background-image: url("pexels.jpg")
 }
