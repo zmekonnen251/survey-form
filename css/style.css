@@ -1,10 +1,75 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.4;
-  color: white;
-  margin: 0;
-  display: block;
-  background-image: url("pexels.jpg")
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.contaniner {
+	background-color: #657a2a;
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+#title {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+#description {
+	text-align: center;
+	font-style: italic;
+	color: white;
+}
+
+form {
+	border-radius: 15px;
+	background-color: blue;
+	padding: 20px;
+	margin: 30px;
+	opacity: 70%;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+input[type='number'] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type='text'] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type='email'] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	margin-top: 10px;
+}
+#submit {
+	padding: 15px;
+	width: 100%;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+}
+
+select {
+	margin: 10px 0;
+	width: 100%;
+	padding: 10px;
+}
+
+.radio-heading {
+	margin-bottom: 15px;
 }
