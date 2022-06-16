@@ -1,5 +1,32 @@
-# FCC Test Suite Template
+# Survey Form
 
-**Fork** this project (do not open a Pull Request) to start working on any of freeCodeCamp's responsive web design course projects. Select the project from the dropdown menu and run the tests to see which requirements your project is still missing.
+> It is a project that I made for the Microverse entrance. The project is a simple survey form. I and my partner used Html and CSS to build the project.
 
-You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
+<img src="screen-shot.png"/>
+
+## Built With
+
+- `HTML` ,`CSS` and `JavaScript`
+- Frameworks : `Webpack`
+- Technologies used: `GitHub`
+
+
+## Author
+
+👤 **Zelalem Mekonnen**
+
+- GitHub: [GitHub](https://github.com/zmekonnen251)
+- Twitter: [Twitter](https://twitter.com/mek_zela)
+- LinkedIn: [Zelalem G. Mekonnen](https://www.linkedin.com/in/zelalem-getachew/)
+
+## Live Demo
+
+[live Demo](https://wonderful-carson-a4a22b.netlify.app/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
